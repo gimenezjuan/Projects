@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseAccess", "DataBaseAccess\DataBaseAccess.csproj", "{DD9821F9-8070-4028-BF50-63CE2F16FC84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelClasses", "ModelClasses\ModelClasses.csproj", "{866664BD-1A81-49E4-99EB-90E21F960CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JuanTech", "JuanTech\JuanTech.csproj", "{C17A450C-E911-471A-8F66-D84254E6F105}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9821F9-8070-4028-BF50-63CE2F16FC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9821F9-8070-4028-BF50-63CE2F16FC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9821F9-8070-4028-BF50-63CE2F16FC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9821F9-8070-4028-BF50-63CE2F16FC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866664BD-1A81-49E4-99EB-90E21F960CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866664BD-1A81-49E4-99EB-90E21F960CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866664BD-1A81-49E4-99EB-90E21F960CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866664BD-1A81-49E4-99EB-90E21F960CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17A450C-E911-471A-8F66-D84254E6F105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17A450C-E911-471A-8F66-D84254E6F105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17A450C-E911-471A-8F66-D84254E6F105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17A450C-E911-471A-8F66-D84254E6F105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
